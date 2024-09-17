@@ -71,9 +71,6 @@ public:
             {
                 rects[i][x].setPosition(Vector2f(static_cast<float>(x * gridWIDTH / 10 + background.getPosition().x), static_cast<float>(i * gridHEIGHT / 20 + background.getPosition().y)));
                 rects[i][x].setSize(Vector2f(static_cast<float>(gridWIDTH / 10), static_cast<float>(gridHEIGHT / 20)));
-                //rects[i][x].setFillColor(Color(138, 43, 226, 0));
-                //rects[i][x].setOutlineThickness(rects[i][x].getSize().x / 50);
-                //rects[i][x].setOutlineColor(Color(100, 100, 100));
                 rects[i][x].setTexture(&textures[0]);
             }
         }
@@ -85,34 +82,6 @@ public:
         {
             for (int x = 0; x < 10; x++)
             {
-                /*switch (grid[i][x])
-                {
-                case Yellow:
-                    cout << "Yellow\t";
-                    break;
-                case Orange:
-                    cout << "Orange\t";
-                    break;
-                case Green:
-                    cout << "Green\t";
-                    break;
-                case Red:
-                    cout << "Red\t";
-                    break;
-                case Blue:
-                    cout << "Blue\t";
-                    break;
-                case Purple:
-                    cout << "Purple\t";
-                    break;
-                case LightBlue:
-                    cout << "LightBlue\t";
-                    break;
-                case None:
-                    cout << ".\t";
-                    break;
-                }
-                */
                 if (grid[i][x] != None)
                 {
                     cout << "[] ";
@@ -161,12 +130,6 @@ public:
                     }
                 }
 
-                /*for (int x = 0; x < 10; x++)
-                {
-                    grid[i - 1][x] = None;
-                }*/
-
-
             }
 
         }
@@ -190,33 +153,24 @@ public:
                     rects[i][x].setTexture(&textures[5]);
                     break;
                 case None:
-                    //rects[i][x].setFillColor(Color(138, 43, 226, 0));
-                    //rects[i][x].setOutlineThickness(rects[i][x].getSize().x / 50);
-                    //rects[i][x].setOutlineColor(Color(100, 100, 100));
                     rects[i][x].setTexture(&textures[0]);
                     break;
                 case Orange:
-                    //rects[i][x].setFillColor(Color(255, 165, 0));
                     rects[i][x].setTexture(&textures[5]);
                     break;
                 case Green:
-                    //rects[i][x].setFillColor(Color::Green);
                     rects[i][x].setTexture(&textures[2]);
                     break;
                 case Red:
-                    //rects[i][x].setFillColor(Color::Red);
                     rects[i][x].setTexture(&textures[4]);
                     break;
                 case Blue:
-                    //rects[i][x].setFillColor(Color::Blue);
                     rects[i][x].setTexture(&textures[1]);
                     break;
                 case Purple:
-                    //rects[i][x].setFillColor(Color(77, 0, 77));
                     rects[i][x].setTexture(&textures[3]);
                     break;
                 case LightBlue:
-                    //rects[i][x].setFillColor(Color(179, 204, 255));
                     rects[i][x].setTexture(&textures[1]);
                     break;
                 }
@@ -240,10 +194,8 @@ public:
         {
             for (int x = 0; x < 10; x++)
             {
-                //cout << getSegment(i, x) << "\t";
                 window->draw(rects[i][x]);
             }
-            //cout << endl;
         }
 
     }
@@ -369,7 +321,6 @@ public:
             tests[i] = test;
         }
         setStill();
-        //cout << endl << endl << checkHitBlock(grid, positions, tests) << endl << endl;
         while (!checkHitBlock(grid, positions, tests))
         {
             //cout << "ah";
@@ -384,8 +335,6 @@ public:
         for (int i = 0; i < 4; i++)
         {
             grid->setSegmentColour(positions[i].y, positions[i].x, None);
-            //tests[i].y--;
-            //cout << tests[i].y << "\t";
             positions[i] = tests[i];
             grid->setSegmentColour(positions[i].y, positions[i].x, shapeColour);
             
@@ -494,11 +443,6 @@ public:
                 grid->setSegmentColour(positions[i].x, positions[i].y, None);
 
             }
-            for (int i = 0; i < 4; i++)
-            {
-                //cout << grid->getSegment(positions[i].x, positions[i].y);
-            }
-
 
             for (int i = 0; i < 4; i++)
             {
@@ -1729,7 +1673,6 @@ public:
         currentShapeChoice = rand() % 7;
         while (currentShapeChoice == nextShapeChoice) currentShapeChoice = rand() % 7;
         holdChoice = evalRandNext(currentShapeChoice);
-        //currentShapeChoice = evalRandNext(currentShapeChoice);
 
 
 
@@ -1807,7 +1750,7 @@ public:
         else fallTimeStep = 500;
         timer += timeInc;
 
-        //cout << fallTimeStep << endl;
+
         if (timer % fallTimeStep == 0)
         {
 
@@ -1845,8 +1788,6 @@ public:
 
 
             }
-            //if (next->getStill()) cout << endl << endl << "true" << endl << endl;
-            //else cout << endl << endl << "false" << endl << endl;
 
         }
 
@@ -1860,7 +1801,6 @@ public:
         {
             if ((next->positions[i].y == 0 || next->positions[i].y == 1)) return true;
             else return false;
-            //cout << next->positions[i].y << "\t";
         }
         //cout << endl;
         
@@ -1938,7 +1878,6 @@ public:
                 {
                     grid.setSegmentColour(next->positions[i].y, next->positions[i].x, None);
                 }
-                //cout << hold->positions;
                 gridIndex tempPos = next->positions[0];
 
                 Block* temp = next;
@@ -2253,7 +2192,6 @@ int main()
 
     RenderWindow window(VideoMode(WIDTH, HEIGHT), "Tetris", Style::Titlebar | Style::Close);
     Event ev;
-    //window.setFramerateLimit(5);
 
     
 
