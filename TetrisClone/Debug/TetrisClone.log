@@ -1,0 +1,83 @@
+﻿  TetrisClone.cpp
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1687,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1688,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1724,28): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1964,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1965,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2085,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2092,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2099,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2105,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2107,217): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2112,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2113,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2120,44): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2144,46): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2167,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2213,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2214,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2220,60): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2223,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2224,49): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2229,42): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2238,43): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2254,42): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(2254,35): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\PC\Desktop\TetrisClone\TetrisClone\TetrisClone.cpp(1867): warning C4715: 'Game::checkBlockOut': not all control paths return a value
+  TetrisClone.vcxproj -> C:\Users\PC\Desktop\TetrisClone\Debug\TetrisClone.exe
