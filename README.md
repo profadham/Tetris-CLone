@@ -29,7 +29,9 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 # ⚙️ Installation
 ### 📌 Prerequisites:
 C++ Compiler (if applicable)
+
 SDL Library / SFML / Other Dependencies (if needed)
+
 Git (to clone the repository)
 
 
