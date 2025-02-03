@@ -20,6 +20,8 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 ✅ Hold Option - allows player to hold the current block and play with another one if the current is not useful
 
 # 🖥️ Screenshots
-<img src="https://github.com/profadham/Tetris-CLone/blob/e3a5b2f00e29effa2b7094cf983cd4e4a11dcd88/1.png" alt="Screenshot" width="20%"/>
+<p float="left">
+<img src="https://github.com/profadham/Tetris-CLone/blob/e3a5b2f00e29effa2b7094cf983cd4e4a11dcd88/1.png" alt="Screenshot" width="20%", style = "margin-right: 10px"/>
 <img src="https://github.com/profadham/Tetris-CLone/blob/e49203730d22ad515123d2a7f510a0fe06480033/2.png" alt="Screenshot" width="20%"/>
 <img src="https://github.com/profadham/Tetris-CLone/blob/e3a5b2f00e29effa2b7094cf983cd4e4a11dcd88/1.png" alt="Screenshot" width="20%"/>
+</p>
