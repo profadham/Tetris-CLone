@@ -21,3 +21,4 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 
 # 🖥️ Screenshots
 ![D:\projectssssss\Tetris\screenshotss](https://github.com/profadham/Tetris-CLone/blob/e3a5b2f00e29effa2b7094cf983cd4e4a11dcd88/1.png)
+<img src="https://github.com/profadham/Tetris-CLone/blob/e3a5b2f00e29effa2b7094cf983cd4e4a11dcd88/1.png" alt="Screenshot" width="50%"/>
