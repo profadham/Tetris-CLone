@@ -13,10 +13,15 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 
 # 🎮 Features
 ✅ Classic Tetris Gameplay – Stack the blocks and clear lines!
+
 ✅ Smooth Controls – Play effortlessly with keyboard inputs.
+
 ✅ Score Tracking – Compete for the highest score!
+
 ✅ Pause & Resume – Take a break anytime.
+
 ✅ Sound Effects – Engaging sounds for an immersive experience.
+
 ✅ Hold Option - allows player to hold the current block and play with another one if the current is not useful
 
 # 🖥️ Screenshots
