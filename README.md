@@ -32,7 +32,9 @@ C++ Compiler (if applicable)
 
 SDL Library / SFML / Other Dependencies (if needed)
 
-Git (to clone the repository)
+Git (to clone the repository):
 
+```git clone https://github.com/profadham/Tetris-CLone.git
+cd Tetris-CLone```
 
 
