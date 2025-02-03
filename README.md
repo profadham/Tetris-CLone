@@ -6,7 +6,6 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 #### 🎮 Features
 #### 🖥️ Screenshots
 #### ⚙️ Installation
-#### 📌 Usage
 #### 🎛 Controls
 #### 🤝 Contributing
 
