@@ -3,13 +3,13 @@
 Welcome to the Tetris Clone project! This is a modern remake of the classic Tetris game, developed as a fun project for gaming enthusiasts and programmers alike
 
 # 📖 Table of Contents
-## 🎮 Features
-## 🖥️ Screenshots
-## ⚙️ Installation
-## 📌 Usage
-## 🎛 Controls
-## 🤝 Contributing
-## 🙏 Acknowledgements
+#### 🎮 Features
+#### 🖥️ Screenshots
+#### ⚙️ Installation
+#### 📌 Usage
+#### 🎛 Controls
+#### 🤝 Contributing
+#### 🙏 Acknowledgements
 
 # 🎮 Features
 ✅ Classic Tetris Gameplay – Stack the blocks and clear lines!
