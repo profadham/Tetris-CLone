@@ -34,7 +34,9 @@ SDL Library / SFML / Other Dependencies (if needed)
 
 Git (to clone the repository):
 
-```git clone https://github.com/profadham/Tetris-CLone.git
-cd Tetris-CLone```
+```
+git clone https://github.com/profadham/Tetris-CLone.git
+cd Tetris-CLone
+```
 
 
