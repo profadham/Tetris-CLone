@@ -25,3 +25,11 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 <img src="https://github.com/profadham/Tetris-CLone/blob/e49203730d22ad515123d2a7f510a0fe06480033/2.png" alt="Screenshot" width="20%"/>
 <img src="https://github.com/profadham/Tetris-CLone/blob/8995adb8f97bb3e25414a45e287541921b2a4b90/3.png" alt="Screenshot" width="20%"/>
 </p>
+# ⚙️ Installation
+### 📌 Prerequisites:
+C++ Compiler (if applicable)
+SDL Library / SFML / Other Dependencies (if needed)
+Git (to clone the repository)
+
+
+
