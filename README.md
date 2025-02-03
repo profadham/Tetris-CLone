@@ -9,7 +9,6 @@ Welcome to the Tetris Clone project! This is a modern remake of the classic Tetr
 #### 📌 Usage
 #### 🎛 Controls
 #### 🤝 Contributing
-#### 🙏 Acknowledgements
 
 # 🎮 Features
 ✅ Classic Tetris Gameplay – Stack the blocks and clear lines!
